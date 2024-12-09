@@ -48,12 +48,12 @@ while pagina <= 3:
     soup = BeautifulSoup(driver.page_source, "html.parser")
 
     ### Encontrar os contêineres de imóveis
-    #imoveis = soup.find_all("a", class_="new-card")
+    imoveis = soup.find_all("div", class_="new-info")
     # Buscar separadamente
-    cards = soup.find_all("a", class_="new-card")
-    infos = soup.find_all("div", class_="new-info")
+    #cards = soup.find_all("a", class_="new-card") # São um subconjunto de cards. Não são necessários.
+    #infos = soup.find_all("div", class_="new-info")
     # Combinar os resultados
-    imoveis = cards + infos  # Junta as listas encontradas
+    #imoveis = cards + infos  # Junta as listas encontradas
 
     
     # Parar se não encontrar imóveis (fim das páginas)
@@ -64,17 +64,19 @@ while pagina <= 3:
     # Extrair dados
     for imovel in imoveis:
         titulo = imovel.find("h2", class_="new-title phrase")
-        desc1 = imovel.find("div", class_="new-text phrase")  # descrição completa
-        desc2 = imovel.find("h3", class_="new-desc phrase") # descricao pequena / ruim
-        desc3 = imovel.find("h3", class_="new-simple phrase") # descricao simples
+        desc1 = imovel.find("h3", class_="new-simple phrase")  # descrição simples
+        desc2 = imovel.find("div", class_="new-text phrase") # descricao completa
+        desc3 = imovel.find("h3", class_="new-desc phrase") # descricao ruim
         preco = imovel.find("div", class_="new-price")
-        details = imovel.find("ul", class_="new-details-ul")
+        area = imovel.find("li", class_="m-area")
+        details = imovel.find("ul", class_="new-details-ul") # contem info da area
 
         titulo_text = titulo.text.strip() if titulo else "Título não encontrado"
         preco_text = preco.text.strip() if preco else "Preço não encontrado"
         desc1_text = desc1.text.strip() if desc1 else "Descrição não encontrada"
-        desc2_text = desc2.text.strip() if desc1 else "Descrição não encontrada"
-        desc3_text = desc3.text.strip() if desc1 else "Descrição não encontrada"
+        desc2_text = desc2.text.strip() if desc2 else "Descrição não encontrada"
+        desc3_text = desc3.text.strip() if desc3 else "Descrição não encontrada"
+        area_text = desc3.text.strip() if desc3 else "Área não encontrada"
         details_text = details.text.strip() if details else "Detalhes não encontrada"
 
         '''# Limpar o campo "Preço"
@@ -85,9 +87,13 @@ while pagina <= 3:
         preco_numerico = re.search(r"(\d[\d\.\,]*)", preco_text)
         preco_text = preco_numerico.group(1).replace(".", "").replace(",", ".") if preco_numerico else ""
 
+        area_numerica = re.search(r"(\d[\d\.\,]*)", area_text)
+        area_text = area_numerica.group(1).replace(".", "").replace(",", ".") if area_numerica else ""
+
         dados_imoveis.append({
             "Título": titulo_text,
             "Preço": preco_text,
+            "Área": area_text,
             "Detalhes": details_text,
             "Descrição 1": desc1_text,
             "Descrição 2": desc2_text,
@@ -108,7 +114,7 @@ print(f"Total de imóveis coletados: {len(dados_imoveis)}")
 
 arquivo_csv = "imoveis_dados.csv"
 with open(arquivo_csv, "w", newline="", encoding="utf-8") as file:
-    writer = csv.DictWriter(file, fieldnames=["Título", "Preço", "Detalhes", "Descrição 1", "Descrição 2", "Descrição 3"])
+    writer = csv.DictWriter(file, fieldnames=["Título", "Preço", "Área", "Detalhes", "Descrição 1", "Descrição 2", "Descrição 3"])
     writer.writeheader()  # Escreve o cabeçalho
     writer.writerows(dados_imoveis)  # Escreve os dados
 

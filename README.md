@@ -1,7 +1,7 @@
 # Data Scraping
 Simple data scraping on brazilian real state site. Real State Brasília - DF website.
 
-URL: https://www.dfimoveis.com.br/venda/df/brasilia/imoveis
+URL: _https://www.dfimoveis.com.br/venda/df/brasilia/imoveis_
 
 ## Requirements
 ```
@@ -11,7 +11,7 @@ pip3 install selenium
 ```
 Open Google Chrome and verify it's version: Google Chrome -> Definitions -> About Chrome
 
-Install compatible ChromeDriver to use Selenium: https://googlechromelabs.github.io/chrome-for-testing/#stable
+Install compatible ChromeDriver to use Selenium: _https://googlechromelabs.github.io/chrome-for-testing/#stable_
 
 ## Libs
 - Requests: get HTML from the URL.

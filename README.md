@@ -10,6 +10,7 @@ pip3 install beautifulsoup4
 pip3 install selenium
 ```
 Open Google Chrome and verify it's version: Google Chrome -> Definitions -> About Chrome
+
 Install compatible ChromeDriver to use Selenium: https://googlechromelabs.github.io/chrome-for-testing/#stable
 
 ## Libs

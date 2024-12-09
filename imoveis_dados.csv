@@ -1,11 +1,11 @@
-Título,Preço,Área,Detalhes,Descrição 1,Descrição 2,Descrição 3
+Título,Preço,Área,Preço por m²,Detalhes,Descrição 1,Descrição 2,Descrição 3
 "SQNW 303
-                                    NOROESTE, BRASILIA",1760000,125,"125 m²
+                                    NOROESTE, BRASILIA",1760000,125,"14.080,00","125 m²
 
 3 quartos
 
 1 planta",Vida longa a você e sua família,Descrição não encontrada,Apartamento 125 m²
-"SQNW 110 Bloco D, NOROESTE, BRASILIA",3800000,262,"262 m²
+"SQNW 110 Bloco D, NOROESTE, BRASILIA",3800000,262,"14.503,82","262 m²
 
 
 4 Quartos
@@ -19,13 +19,13 @@ Título,Preço,Área,Detalhes,Descrição 1,Descrição 2,Descrição 3
 
 
 Esta incrível cobertura duplex foi projetad... 09/12/24",Venda Apartamento 262 m²
-"SQN 216, ASA NORTE, BRASILIA",870000,70,"70 m²
+"SQN 216, ASA NORTE, BRASILIA",870000,70,"12.428,57","70 m²
 
 
 2 Quartos","Apartamento 2 Quartos, Reformado, Vista Livre !","Apartamento dos Sonhos: 2 Quartos, 70m², Reformado, Vista Livre e Arborizado! 
 
 Observação: As fotos 3, 5, 12, 16 e 21 s... 09/12/24",Venda Apartamento 70 m²
-"SQNW 303, NOROESTE, BRASILIA",3490000,204,"204 m²
+"SQNW 303, NOROESTE, BRASILIA",3490000,204,"17.107,84","204 m²
 
 
 3 Quartos
@@ -36,12 +36,12 @@ Observação: As fotos 3, 5, 12, 16 e 21 s... 09/12/24",Venda Apartamento 70 m²
 
 4 Vagas",", MY DESIGN NOVO E REFORMADO: 205 M2, COM 3 SUÍTES E 4 VAGAS DE GARAGEM",Este lindo apartamento na SQNW 303 com arquitetura assinada pelas renomadas Liê Arquitetas (@lie.arquitetas) e todo com ... 09/12/24,Venda Apartamento 204 m²
 "SQNW 307 Bloco I
-                                    NOROESTE, BRASILIA",1228551,74,"74 m²
+                                    NOROESTE, BRASILIA",1228551,74,"16.602,04","74 m²
 
 2 quartos
 
 1 planta",,Descrição não encontrada,Apartamento 74 m²
-"SQN 104 Bloco K, ASA NORTE, BRASILIA",1690000,125,"125 m²
+"SQN 104 Bloco K, ASA NORTE, BRASILIA",1690000,125,"13.520,00","125 m²
 
 
 3 Quartos
@@ -50,7 +50,7 @@ Observação: As fotos 3, 5, 12, 16 e 21 s... 09/12/24",Venda Apartamento 70 m²
 1 Suíte","Vista livre, andar alto,  claro, arejado, reformado.","Kontá imóveis: perto de você!
 
 Apartamento incrível no início da Asa Norte. Um apartamento com 125m, cheio de predicados... 09/12/24",Venda Apartamento 125 m²
-"SQNW 303, NOROESTE, BRASILIA",4500000,205,"205 m²
+"SQNW 303, NOROESTE, BRASILIA",4500000,205,"21.951,22","205 m²
 
 
 3 Quartos
@@ -60,7 +60,7 @@ Apartamento incrível no início da Asa Norte. Um apartamento com 125m, cheio de
 
 
 4 Vagas",", MY DESIGN NOVO, LINDO E MOBILIADO: 205 M2, COM 3 SUÍTES, ESCRITÓRIO E 4 VAGAS DE GARAGEM","Descubra o prazer de viver neste lindo apartamento na SQNW 303, com arquitetura assinada pelas renomadas Liê Arquitetas ... 09/12/24",Venda Apartamento 205 m²
-"SQSW 300 Bloco L, SUDOESTE, BRASILIA",2650000,179,"179 m²
+"SQSW 300 Bloco L, SUDOESTE, BRASILIA",2650000,179,"14.804,47","179 m²
 
 
 4 Quartos
@@ -74,12 +74,12 @@ SQSW 300 - ED. VALADARES GONTIJO - COM 179 m ² DE ÁREA PRIVATIVA
 
 EDIFICIO LOCALIZADO NO INTERIO... 09/12/24",Venda Apartamento 179 m²
 "SQNW 302 Bloco B
-                                    NOROESTE, BRASILIA",,146,"146 m²
+                                    NOROESTE, BRASILIA",,146,Preço ou área indisponível,"146 m²
 
 4 quartos
 
 1 planta","Contemporâneo, como você",Descrição não encontrada,Apartamento 146 m²
-"SQSW 304, SUDOESTE, BRASILIA",1260000,87,"87 m²
+"SQSW 304, SUDOESTE, BRASILIA",1260000,87,"14.482,76","87 m²
 
 
 3 Quartos
@@ -92,7 +92,7 @@ EDIFICIO LOCALIZADO NO INTERIO... 09/12/24",Venda Apartamento 179 m²
 
 Apartamento no Sudoeste com excelente planta.
 A sala possui dois a... 09/12/24",Venda Apartamento 87 m²
-"SQNW 303, NOROESTE, BRASILIA",3575000,205,"205 m²
+"SQNW 303, NOROESTE, BRASILIA",3575000,205,"17.439,02","205 m²
 
 
 3 Quartos
@@ -102,7 +102,7 @@ A sala possui dois a... 09/12/24",Venda Apartamento 87 m²
 
 
 4 Vagas",", My Design NOVO E REFORMADO: 205 M2, COM 3 SUÍTES E 4 VAGAS DE GARAGEM",Este lindo apartamento na SQNW 303 com arquitetura assinada pelas renomadas Liê Arquitetas (@lie.arquitetas) e todo com ... 09/12/24,Venda Apartamento 205 m²
-"SHIS QI 15, LAGO SUL, BRASILIA",7500000,600,"600 m²
+"SHIS QI 15, LAGO SUL, BRASILIA",7500000,600,"12.500,00","600 m²
 
 
 4 Quartos
@@ -115,12 +115,12 @@ A sala possui dois a... 09/12/24",Venda Apartamento 87 m²
 
 Descubra o encanto único desta residência de alto padrão, onde o luxo se une à... 09/12/24",Venda Casa 600 m²
 "SQNW 302 Bloco E
-                                    NOROESTE, BRASILIA",2980000,202,"202 m²
+                                    NOROESTE, BRASILIA",2980000,202,"14.752,48","202 m²
 
 3 quartos
 
 1 planta",Descubra o prazer de ficar em casa.,Descrição não encontrada,Apartamento 202 m²
-"SHIS QI 5 Chacará s 53 a 61, LAGO SUL, BRASILIA",7500000,0.07,"0,07 ha
+"SHIS QI 5 Chacará s 53 a 61, LAGO SUL, BRASILIA",7500000,0.07,"107.142.857,14","0,07 ha
 
 
 3 Quartos
@@ -131,7 +131,7 @@ Descubra o encanto único desta residência de alto padrão, onde o luxo se une 
 
 15 Vagas",SHIS QI 5 CASA DOS SONHOS LOCALIZAÇÃO PRIVILEGIADA,"SHIS QI 5 CASA DOS SONHOS LOCALIZAÇÃO PRIVILEGIADA
 15% de desconto para essa belíssimo casa que vale 7.5 milhões, agora ... 09/12/24","Venda Rural 0,07 ha"
-"SQS 313 Bloco H, ASA SUL, BRASILIA",3200000,209,"209 m²
+"SQS 313 Bloco H, ASA SUL, BRASILIA",3200000,209,"15.311,00","209 m²
 
 
 4 Quartos
@@ -143,7 +143,7 @@ Descubra o encanto único desta residência de alto padrão, onde o luxo se une 
 2 Vagas",Venda Apartamento 4 quartos Asa Sul Brasília,"Apartamento de alto padrão - SQS 313
  
 Bem-vindo a este imóvel regado de tranquilidade. É perfeito para quem procura um ... 09/12/24",Venda Apartamento 209 m²
-"Condomínio Resid Jardins do Lago Quadra 1, JARDIM BOTANICO, BRASILIA",5400000,530,"530 m²
+"Condomínio Resid Jardins do Lago Quadra 1, JARDIM BOTANICO, BRASILIA",5400000,530,"10.188,68","530 m²
 
 
 4 Quartos
@@ -158,12 +158,12 @@ Bem-vindo a este imóvel regado de tranquilidade. É perfeito para quem procura 
 
 Imagine viver em uma residência ... 09/12/24",Venda Casa Condominio 530 m²
 "SQNW 105 Bloco A
-                                    NOROESTE, BRASILIA",3250000,193,"193 a 204 m²
+                                    NOROESTE, BRASILIA",3250000,193,"16.839,38","193 a 204 m²
 
 4 quartos
 
 2 plantas",O luxo refletido de forma única,Descrição não encontrada,Apartamento 193 a 204 m²
-"Condomínio Le Jardin, JARDIM BOTANICO, BRASILIA",1590000,298,"298 m²
+"Condomínio Le Jardin, JARDIM BOTANICO, BRASILIA",1590000,298,"5.335,57","298 m²
 
 
 4 Quartos
@@ -173,7 +173,7 @@ Imagine viver em uma residência ... 09/12/24",Venda Casa Condominio 530 m²
 
 
 2 Vagas","Casa Moderna com 4 Suítes no Condomínio Le Jardin, no Jardim Botânico, com novo preço de R$ 1.590.00","Bem-vindo ao seu novo lar no renomado Condomínio ""Le Jardin1"", no Jardim Botânico, uma das áreas mais desejadas de Brasí... 09/12/24",Venda Casa Condominio 298 m²
-"SQNW 309 Bloco F, NOROESTE, BRASILIA",2520000,150,"150 m²
+"SQNW 309 Bloco F, NOROESTE, BRASILIA",2520000,150,"16.800,00","150 m²
 
 
 3 Quartos
@@ -187,7 +187,7 @@ Imagine viver em uma residência ... 09/12/24",Venda Casa Condominio 530 m²
 EXCLUSIVIDADE!
 
 Apartamento com reforma de altíssimo padrão à venda na SQNW 309, quadra c... 09/12/24",Venda Apartamento 150 m²
-"SHIN QI 13, LAGO NORTE, BRASILIA",4200000,300,"300 m²
+"SHIN QI 13, LAGO NORTE, BRASILIA",4200000,300,"14.000,00","300 m²
 
 
 2 Quartos
@@ -200,12 +200,12 @@ Apartamento com reforma de altíssimo padrão à venda na SQNW 309, quadra c... 
 
 Localizada no bairro residencial Lago Norte, mais tran... 09/12/24",Venda Casa 300 m²
 "SGCV
-                                    PARK SUL, BRASILIA",950000,60,"60 a 61 m²
+                                    PARK SUL, BRASILIA",950000,60,"15.833,33","60 a 61 m²
 
 2 quartos
 
 2 plantas",CONQUISTE SEU ESPAÇO,Descrição não encontrada,Apartamento 60 a 61 m²
-"Condomínio Ouro Vermelho II, JARDIM BOTANICO, BRASILIA",1500000,259,"259 m²
+"Condomínio Ouro Vermelho II, JARDIM BOTANICO, BRASILIA",1500000,259,"5.791,51","259 m²
 
 
 4 Quartos
@@ -217,7 +217,7 @@ Localizada no bairro residencial Lago Norte, mais tran... 09/12/24",Venda Casa 3
 2 Vagas",OURO VERMELHO 2,"OURO VERMELHO 2
  
 Casa com estilo único, vista definitiva, edificada em terreno de 1000m²;, todo fechado, com área verde... 09/12/24",Venda Casa Condominio 259 m²
-"SHIN QI 12, LAGO NORTE, BRASILIA",3290000,398,"398 m²
+"SHIN QI 12, LAGO NORTE, BRASILIA",3290000,398,"8.266,33","398 m²
 
 
 4 Quartos
@@ -230,7 +230,7 @@ Casa com estilo único, vista definitiva, edificada em terreno de 1000m²;, todo
 
 
 Projeto Exclusivo de Lauro Rocha - Residência Térrea com... 09/12/24",Venda Casa 398 m²
-"SMPW Quadra 23, PARK WAY, BRASILIA",3599000,625,"625 m²
+"SMPW Quadra 23, PARK WAY, BRASILIA",3599000,625,"5.758,40","625 m²
 
 
 4 Quartos
@@ -243,12 +243,12 @@ Projeto Exclusivo de Lauro Rocha - Residência Térrea com... 09/12/24",Venda Ca
  
 Uma casa térrea e funcional que une requinte e conforto, excelente oportunidade de viver... 09/12/24",Venda Casa 625 m²
 "SGCV Lote 10
-                                    PARK SUL, BRASILIA",,26,"26 a 103 m²
+                                    PARK SUL, BRASILIA",,26,Preço ou área indisponível,"26 a 103 m²
 
 1 quarto
 
 6 plantas",Um clube para morar.,Descrição não encontrada,Apartamento 26 a 103 m²
-"SQNW 102, NOROESTE, BRASILIA",6500000,339,"339 m²
+"SQNW 102, NOROESTE, BRASILIA",6500000,339,"19.174,04","339 m²
 
 
 3 Quartos
@@ -261,7 +261,7 @@ Uma casa térrea e funcional que une requinte e conforto, excelente oportunidade
 Deslumbrante Duplex de 340m² com acabamento de Luxo.
 
 Este exclusivo ap... 09/12/24",Venda Apartamento 339 m²
-"SHIS QL 16, LAGO SUL, BRASILIA",9800000,837,"837 m²
+"SHIS QL 16, LAGO SUL, BRASILIA",9800000,837,"11.708,48","837 m²
 
 
 5 Quartos
@@ -271,7 +271,7 @@ Este exclusivo ap... 09/12/24",Venda Apartamento 339 m²
 
 
 4 Vagas",SHIS QL 16 - SEU REFÚGIO PARTICULAR!,"Imagine se morando numa casa com 837m2 de área construída com toda praticidade, harmoniosa distribuição dos ambientes, ó... 09/12/24",Venda Casa 837 m²
-"SQSW 300, SUDOESTE, BRASILIA",2380000,147,"147 m²
+"SQSW 300, SUDOESTE, BRASILIA",2380000,147,"16.190,48","147 m²
 
 
 4 Quartos
@@ -284,12 +284,12 @@ Este exclusivo ap... 09/12/24",Venda Apartamento 339 m²
 
 CORRETOR RESPON... 09/12/24",Venda Apartamento 147 m²
 "SGAN 910
-                                    ASA NORTE, BRASILIA",,30,"30 a 32 m²
+                                    ASA NORTE, BRASILIA",,30,Preço ou área indisponível,"30 a 32 m²
 
 1 quarto
 
 2 plantas",,Descrição não encontrada,Apartamento 30 a 32 m²
-"SHN Quadra 5, ASA NORTE, BRASILIA",610000,40,"40 m²
+"SHN Quadra 5, ASA NORTE, BRASILIA",610000,40,"15.250,00","40 m²
 
 
 2 Quartos",Adquira um Flat Recém Reformado no SHN - Excelente Localização!,"Vendo Flat Recém Reformado e Mobiliado no Setor Hoteleiro Norte.
@@ -298,7 +298,7 @@ CORRETOR RESPON... 09/12/24",Venda Apartamento 147 m²
 
 Descrição:
 Este elegante fla... 09/12/24",Venda Apartamento 40 m²
-"SMPW Quadra 17 Conjunto 13, PARK WAY, BRASILIA",3490000,314,"314 m²
+"SMPW Quadra 17 Conjunto 13, PARK WAY, BRASILIA",3490000,314,"11.114,65","314 m²
 
 
 4 Quartos
@@ -312,7 +312,7 @@ Este elegante fla... 09/12/24",Venda Apartamento 40 m²
 CASA DE 4 QUARTOS NA QUADRA 17 – PARK WAY
  ESPECIFICAÇÕES DA CASA:
  - Pr... 09/12/24",Venda Casa 314 m²
-"SHIS QI 28, LAGO SUL, BRASILIA",4400000,416,"416 m²
+"SHIS QI 28, LAGO SUL, BRASILIA",4400000,416,"10.576,92","416 m²
 
 
 3 Quartos
@@ -326,12 +326,12 @@ SHIS QI 28 - Lago Sul
 
 Casa Exclusiva à venda no Lago Sul com Energia F... 09/12/24",Venda Casa 416 m²
 "SQNW 107 Bloco H
-                                    NOROESTE, BRASILIA",,213,"213 m²
+                                    NOROESTE, BRASILIA",,213,Preço ou área indisponível,"213 m²
 
 4 quartos
 
 1 planta",A evolução do alto padrão,Descrição não encontrada,Apartamento 213 m²
-"SQN 110, ASA NORTE, BRASILIA",2750000,176,"176 m²
+"SQN 110, ASA NORTE, BRASILIA",2750000,176,"15.625,00","176 m²
 
 
 3 Quartos
@@ -343,9 +343,9 @@ Casa Exclusiva à venda no Lago Sul com Energia F... 09/12/24",Venda Casa 416 m�
 2 Vagas",", Residencial Ministro Carlos Fernando Mathias LINDA COBERTURA DUPLEX, COM 3 QUARTOS, 2 VAGAS, VISTA LIVRE, À VENDA NA SQN 110!","LINDA COBERTURA DUPLEX, COM 3 QUARTOS, 2 VAGAS, VISTA LIVRE, À VENDA NA SQN 110!
 
 Perfeita para receber amigos e familia... 09/12/24",Venda Apartamento 176 m²
-"SMPW Quadra 4 Conjunto 5, PARK WAY, BRASILIA",2400000,2500,2500 m²,Lote nascente em condomínio novo e moderno.,"Lote à venda na SMPW Quadra 4(fração de meio e nascente). 
+"SMPW Quadra 4 Conjunto 5, PARK WAY, BRASILIA",2400000,2500,"960,00",2500 m²,Lote nascente em condomínio novo e moderno.,"Lote à venda na SMPW Quadra 4(fração de meio e nascente). 
  Condomínio recém-criado, com guarita e tamareiras na entrad... 09/12/24",Venda Lote/Terreno/Área 2500 m²
-"SGCV Lote 27, PARK SUL, BRASILIA",3550000,205,"205 m²
+"SGCV Lote 27, PARK SUL, BRASILIA",3550000,205,"17.317,07","205 m²
 
 
 4 Quartos
@@ -358,12 +358,12 @@ Perfeita para receber amigos e familia... 09/12/24",Venda Apartamento 176 m²
 
 Venha conhecer o ápice do luxo e do conforto no Excellence Park Sul, onde a exclusividad... 09/12/24",Venda Apartamento 205 m²
 "CA 11
-                                    LAGO NORTE, BRASILIA",,78,"78 a 201 m²
+                                    LAGO NORTE, BRASILIA",,78,Preço ou área indisponível,"78 a 201 m²
 
 3 quartos
 
 2 plantas",,Descrição não encontrada,Apartamento 78 a 201 m²
-"SQSW 305 Bloco M, SUDOESTE, BRASILIA",2385000,161,"161 m²
+"SQSW 305 Bloco M, SUDOESTE, BRASILIA",2385000,161,"14.813,66","161 m²
 
 
 4 Quartos
@@ -377,11 +377,11 @@ Venha conhecer o ápice do luxo e do conforto no Excellence Park Sul, onde a exc
 EXCLUSIVIDADE! 
 
 Belíssimo Apartamento de 4 quartos transformados em 3, sendo 2 Suítes, n... 09/12/24",Venda Apartamento 161 m²
-"SQS 416, ASA SUL, BRASILIA",795000,85,"85 m²
+"SQS 416, ASA SUL, BRASILIA",795000,85,"9.352,94","85 m²
 
 
 3 Quartos",Excelente Apartamento de 3 Quartos na SQS 416 - Oportunidade Única!,"Localizado na prestigiada SQS 416 de Brasília, este incrível apartamento oferece uma oportunidade única para quem busca ... 09/12/24",Venda Apartamento 85 m²
-"SQN 109 Bloco N, ASA NORTE, BRASILIA",2420000,173,"173 m²
+"SQN 109 Bloco N, ASA NORTE, BRASILIA",2420000,173,"13.988,44","173 m²
 
 
 4 Quartos
@@ -394,12 +394,12 @@ Belíssimo Apartamento de 4 quartos transformados em 3, sendo 2 Suítes, n... 09
 
 Belíssimo apartamento com 4 quartos, sendo 2 suítes. Localizado em uma das melhores quadr... 09/12/24",Venda Apartamento 173 m²
 "SQNW 103 Bloco G
-                                    NOROESTE, BRASILIA",,102,"102 m²
+                                    NOROESTE, BRASILIA",,102,Preço ou área indisponível,"102 m²
 
 3 quartos
 
 1 planta",Nobreza por excelência,Descrição não encontrada,Apartamento 102 m²
-"SHIS QI 17, LAGO SUL, BRASILIA",3950000,450,"450 m²
+"SHIS QI 17, LAGO SUL, BRASILIA",3950000,450,"8.777,78","450 m²
 
 
 4 Quartos
@@ -409,7 +409,7 @@ Belíssimo apartamento com 4 quartos, sendo 2 suítes. Localizado em uma das mel
 
 
 4 Vagas",OPORTUNIDADE! CASA ESPETACULAR COM HABITE-SE QI 17 - 4 SUÍTES,Bem-vindo à residência na QI 17 do Lago Sul. Esta casa térrea oferece luxo e conforto. Com uma área generosa e distribui... 09/12/24,Venda Casa 450 m²
-"SHIS QI 21 Conjunto 8, LAGO SUL, BRASILIA",4100000,580,"580 m²
+"SHIS QI 21 Conjunto 8, LAGO SUL, BRASILIA",4100000,580,"7.068,97","580 m²
 
 
 5 Quartos
@@ -423,7 +423,7 @@ Belíssimo apartamento com 4 quartos, sendo 2 suítes. Localizado em uma das mel
 EXCLUSIVIDADE!
 
 Belíssima Casa Toda Reformada com 4 Quartos + Escritório + Sala de TV, co... 09/12/24",Venda Casa 580 m²
-"SQNW 104 Bloco D, NOROESTE, BRASILIA",2790000,184,"184 m²
+"SQNW 104 Bloco D, NOROESTE, BRASILIA",2790000,184,"15.163,04","184 m²
 
 
 4 Quartos
@@ -436,12 +436,12 @@ Belíssima Casa Toda Reformada com 4 Quartos + Escritório + Sala de TV, co... 0
 
 Belíssimo Apartamento,  com 4 Suítes, Nascente, de Canto, com Vista Livre... 09/12/24",Venda Apartamento 184 m²
 "SQNW 306
-                                    NOROESTE, BRASILIA",1170000,64,"64 a 220 m²
+                                    NOROESTE, BRASILIA",1170000,64,"18.281,25","64 a 220 m²
 
 2 a 3 quartos
 
 6 plantas",URBAN 306,Descrição não encontrada,Apartamento 64 a 220 m²
-"SHIN QI 12 Conjunto 5, LAGO NORTE, BRASILIA",2350000,362,"362 m²
+"SHIN QI 12 Conjunto 5, LAGO NORTE, BRASILIA",2350000,362,"6.491,71","362 m²
 
 
 4 Quartos
@@ -453,7 +453,7 @@ Belíssimo Apartamento,  com 4 Suítes, Nascente, de Canto, com Vista Livre... 0
 4 Vagas",Lago Norte - Visitas Sábado e Domingo - SHIN QI 12 - 04 Quartos - 2 Suítes - Escritório - Piscina -,"Visitas Sábado e Domingo - 61.986418484 - Confortável propriedade à venda !
 
 Agende sua visita e venha ofereça sua propo... 09/12/24",Venda Casa 362 m²
-"SQN 311, ASA NORTE, BRASILIA",2440000,223,"223 m²
+"SQN 311, ASA NORTE, BRASILIA",2440000,223,"10.941,70","223 m²
 
 
 4 Quartos
@@ -467,14 +467,14 @@ Agende sua visita e venha ofereça sua propo... 09/12/24",Venda Casa 362 m²
 Excepcional Cobertura vazada na Asa Norte.
 
 Linda e cuidadosamente reformada em... 09/12/24",Venda Apartamento 223 m²
-"Condomínio Residencial Santa Mônica, JARDIM BOTANICO, BRASILIA",315000,779,779 m²,Condomínio Residencial Santa Monica Lote regularizado - Aceita financiamento,"Daniel Ferreira vende: Oportunidade! Lote com fundo e lateral para reserva. Totalmente regularizado, aceita financiament... 09/12/24",Venda Lote/Terreno/Área 779 m²
+"Condomínio Residencial Santa Mônica, JARDIM BOTANICO, BRASILIA",315000,779,"404,36",779 m²,Condomínio Residencial Santa Monica Lote regularizado - Aceita financiamento,"Daniel Ferreira vende: Oportunidade! Lote com fundo e lateral para reserva. Totalmente regularizado, aceita financiament... 09/12/24",Venda Lote/Terreno/Área 779 m²
 "SQSW 500 Bloco O
-                                    SUDOESTE, BRASILIA",,159,"159 m²
+                                    SUDOESTE, BRASILIA",,159,Preço ou área indisponível,"159 m²
 
 4 quartos
 
 1 planta",SIMPLICIDADE EXUBERANTE,Descrição não encontrada,Apartamento 159 m²
-"Condomínio Solar de Brasília, JARDIM BOTANICO, BRASILIA",2149000,407,"407 m²
+"Condomínio Solar de Brasília, JARDIM BOTANICO, BRASILIA",2149000,407,"5.280,10","407 m²
 
 
 4 Quartos
@@ -486,7 +486,7 @@ Linda e cuidadosamente reformada em... 09/12/24",Venda Apartamento 223 m²
 3 Vagas",(61) 3595-1212 CASA/ 4 SUITES/  MODERNA/ JARDIM BOTANICO 3595-1212,"A GM Imóveis vende, casa no condomínio Solar de Brasilia, um dos melhores locais para se viver no DF! 
  
 Condomínio regu... 09/12/24",Venda Casa Condominio 407 m²
-"Condomínio Santa Bárbara, JARDIM BOTANICO, BRASILIA",1790000,360,"360 m²
+"Condomínio Santa Bárbara, JARDIM BOTANICO, BRASILIA",1790000,360,"4.972,22","360 m²
 
 
 5 Quartos
@@ -496,7 +496,7 @@ Condomínio regu... 09/12/24",Venda Casa Condominio 407 m²
 
 
 2 Vagas",Condomínio Santa Bárbara Com habite-se - Aceita financiamento,"Daniel Ferreira Vende: Casa com 4 quartos, sendo 3 suítes + Escritório + DCE. Com escritura e registro e habite-se (Acei... 09/12/24",Venda Casa Condominio 360 m²
-"SQNW 306, NOROESTE, BRASILIA",2100000,128,"128 m²
+"SQNW 306, NOROESTE, BRASILIA",2100000,128,"16.406,25","128 m²
 
 
 3 Quartos
@@ -509,12 +509,12 @@ Condomínio regu... 09/12/24",Venda Casa Condominio 407 m²
 
 Viva num apartamento finame... 09/12/24",Venda Apartamento 128 m²
 "SQNW 103 Bloco G
-                                    NOROESTE, BRASILIA",,208,"208 m²
+                                    NOROESTE, BRASILIA",,208,Preço ou área indisponível,"208 m²
 
 3 quartos
 
 1 planta",Nobreza por excelência!,Descrição não encontrada,Apartamento 208 m²
-"SMPW Quadra 15, PARK WAY, BRASILIA",3190000,666,"666 m²
+"SMPW Quadra 15, PARK WAY, BRASILIA",3190000,666,"4.789,79","666 m²
 
 
 5 Quartos
@@ -526,7 +526,7 @@ Viva num apartamento finame... 09/12/24",Venda Apartamento 128 m²
 6 Vagas",Saint Tropez - Nascente - Park Way,"Casa em condomínio de alto padrão - Saint Tropez
 
 Se você busca paz e tranquilidade, este imóvel é o seu destino perfeit... 09/12/24",Venda Casa 666 m²
-"SMPW Quadra 26, PARK WAY, BRASILIA",2250000,700,"700 m²
+"SMPW Quadra 26, PARK WAY, BRASILIA",2250000,700,"3.214,29","700 m²
 
 
 4 Quartos
@@ -538,7 +538,7 @@ Se você busca paz e tranquilidade, este imóvel é o seu destino perfeit... 09/
 4 Vagas",- OPORTUNIDADE COM HABITE-SE,"LUCAS BORDALO VENDE COM EXCLUSIVIDADE - SMPW QD 26 - COM HABITE-SE 
 
 Em uma das quadras cobiçadas do Park Way, situada n... 09/12/24",Venda Casa Condominio 700 m²
-"SMPW Quadra 16, PARK WAY, BRASILIA",3400000,1050,"1050 m²
+"SMPW Quadra 16, PARK WAY, BRASILIA",3400000,1050,"3.238,10","1050 m²
 
 
 5 Quartos
@@ -551,12 +551,12 @@ Em uma das quadras cobiçadas do Park Way, situada n... 09/12/24",Venda Casa Con
 
 Em um enclave de luxo, situado na prestigiada quadra 16 do Park Way, encontra-se... 09/12/24",Venda Casa Condominio 1050 m²
 "SQNW 106 Bloco D
-                                    NOROESTE, BRASILIA",,165,"165 m²
+                                    NOROESTE, BRASILIA",,165,Preço ou área indisponível,"165 m²
 
 4 quartos
 
 1 planta",Em sintonia com você,Descrição não encontrada,Apartamento 165 m²
-"SHIS QI 29, LAGO SUL, BRASILIA",3790000,440,"440 m²
+"SHIS QI 29, LAGO SUL, BRASILIA",3790000,440,"8.613,64","440 m²
 
 
 5 Quartos
@@ -569,7 +569,7 @@ Em um enclave de luxo, situado na prestigiada quadra 16 do Park Way, encontra-se
 OBS.: ACEITA FINANCIAMENTO e FGTS
 
 Um sobrado de alto padr... 09/12/24",Venda Casa 440 m²
-"SMPW Quadra 17 Conjunto 12, PARK WAY, BRASILIA",2730000,600,"600 m²
+"SMPW Quadra 17 Conjunto 12, PARK WAY, BRASILIA",2730000,600,"4.550,00","600 m²
 
 
 7 Quartos
@@ -581,7 +581,7 @@ Um sobrado de alto padr... 09/12/24",Venda Casa 440 m²
 12 Vagas",SMPW  17 | Casa  sobrado de alto padrão com 7 quartos - sendo 3 suítes - 12 vagas de garagem - aceit,"SMPW 17 - Park Way.
 
 Apresentamos uma residência de alto padrão que combina sofisticação, conforto e privacidade em um d... 09/12/24",Venda Casa Condominio 600 m²
-"SHIS QI 17, LAGO SUL, BRASILIA",6400000,650,"650 m²
+"SHIS QI 17, LAGO SUL, BRASILIA",6400000,650,"9.846,15","650 m²
 
 
 7 Quartos
@@ -595,12 +595,12 @@ SHIS QI 17 - Lago Sul
 
 Bordalo Prime vende com exclusividade essa casa ... 09/12/24",Venda Casa 650 m²
 "SQN 215
-                                    ASA NORTE, BRASILIA",2683872,160,"160 a 387 m²
+                                    ASA NORTE, BRASILIA",2683872,160,"16.774,20","160 a 387 m²
 
 4 quartos
 
 2 plantas",,Descrição não encontrada,Apartamento 160 a 387 m²
-"SMDB Conjunto 13, LAGO SUL, BRASILIA",6500000,500,"500 m²
+"SMDB Conjunto 13, LAGO SUL, BRASILIA",6500000,500,"13.000,00","500 m²
 
 
 3 Quartos
@@ -613,7 +613,7 @@ Bordalo Prime vende com exclusividade essa casa ... 09/12/24",Venda Casa 650 m²
 SMDB 13  LAGO SUL
 
 Oportunidade única a poucos metros da entrada do Jar... 09/12/24",Venda Casa 500 m²
-"SQS 309 Bloco J, ASA SUL, BRASILIA",2900000,217,"217 m²
+"SQS 309 Bloco J, ASA SUL, BRASILIA",2900000,217,"13.364,06","217 m²
 
 
 4 Quartos
@@ -624,7 +624,7 @@ Oportunidade única a poucos metros da entrada do Jar... 09/12/24",Venda Casa 50
 
 2 Vagas","SQS 309- 4 quartos reformado, com 2 vagas, 2 suítes e planta sem defeitos","Apartamento exclusivo 
 Sua busca pelo 4 quartos ideal acaba agora! Vamos te explicar brevemente a razão, estamos falando... 09/12/24",Venda Apartamento 217 m²
-"SHIS QI 23, LAGO SUL, BRASILIA",9900000,716,"716 m²
+"SHIS QI 23, LAGO SUL, BRASILIA",9900000,716,"13.826,82","716 m²
 
 
 4 Quartos
@@ -638,8 +638,8 @@ SHIS QI 23  Setor de Chácaras
 
 Localização privilegiada em meio à natur... 09/12/24",Venda Casa 716 m²
 "SQNW 106 Bloco H
-                                    NOROESTE, BRASILIA",,,0 plantas,2 e 3 Quartos - Noroeste,Descrição não encontrada,Apartamento
-"SQNW 111, NOROESTE, BRASILIA",2690000,183,"183 m²
+                                    NOROESTE, BRASILIA",,,Preço ou área indisponível,0 plantas,2 e 3 Quartos - Noroeste,Descrição não encontrada,Apartamento
+"SQNW 111, NOROESTE, BRASILIA",2690000,183,"14.699,45","183 m²
 
 
 3 Quartos
@@ -651,7 +651,7 @@ Localização privilegiada em meio à natur... 09/12/24",Venda Casa 716 m²
 4 Vagas","DE CANTO + NASCENTE + VISTA LIVRE + VAZADO! EDIFÍCIO LUANA GONÇALVES, SQNW 111, NOROESTE","DE CANTO + NASCENTE + VISTA LIVRE + VAZADO! EDIFÍCIO LUANA GONÇALVES, SQNW 111, NOROESTE
 
 Viva com qualidade de vida, se... 09/12/24",Venda Apartamento 183 m²
-"QC 1, JARDINS MANGUEIRAL, BRASILIA",685000,68,"68 m²
+"QC 1, JARDINS MANGUEIRAL, BRASILIA",685000,68,"10.073,53","68 m²
 
 
 3 Quartos
@@ -663,7 +663,7 @@ Viva com qualidade de vida, se... 09/12/24",Venda Apartamento 183 m²
 2 Vagas","Ótima Casa na QC 01 do Jardins Mangueiral por R$ 685.000,00.","Ótima Casa na QC 01 do Jardins Mangueiral por R$ 685.000,00.
 
 Sala para dois ambientes, ar condicionado, armário planeja... 09/12/24",Venda Casa 68 m²
-"SMPW Quadra 4 Conjunto 3, PARK WAY, BRASILIA",6800000,950,"950 m²
+"SMPW Quadra 4 Conjunto 3, PARK WAY, BRASILIA",6800000,950,"7.157,89","950 m²
 
 
 7 Quartos
@@ -674,12 +674,12 @@ Sala para dois ambientes, ar condicionado, armário planeja... 09/12/24",Venda C
 
 7 Vagas",Linda mansão na SMPW Quadra 4 - Aceita financiamento!!!,"Linda mansão com aproximadamente 950m²; de área total construída, em dois pavimentos, arquitetura moderna, toda automati... 09/12/24",Venda Casa 950 m²
 "SQN 113 Bloco J
-                                    ASA NORTE, BRASILIA",,167,"167 m²
+                                    ASA NORTE, BRASILIA",,167,Preço ou área indisponível,"167 m²
 
 4 quartos
 
 1 planta",,Descrição não encontrada,Apartamento 167 m²
-"Condomínio Residencial Santa Mônica, JARDIM BOTANICO, BRASILIA",1870000,391,"391 m²
+"Condomínio Residencial Santa Mônica, JARDIM BOTANICO, BRASILIA",1870000,391,"4.782,61","391 m²
 
 
 5 Quartos
@@ -689,7 +689,7 @@ Sala para dois ambientes, ar condicionado, armário planeja... 09/12/24",Venda C
 
 
 2 Vagas",Casa com habite-se,"Daniel Ferreira Vende: Casa Jardim Bela Vista, linda casa com 5 quartos, sendo 4 suítes. Com escritura, registro e habit... 09/12/24",Venda Casa Condominio 391 m²
-"SQN 104, ASA NORTE, BRASILIA",1370000,112,"112 m²
+"SQN 104, ASA NORTE, BRASILIA",1370000,112,"12.232,14","112 m²
 
 
 3 Quartos
@@ -701,7 +701,7 @@ Sala para dois ambientes, ar condicionado, armário planeja... 09/12/24",Venda C
 1 Vaga",APARTAMENTO VAZADO COM 3 QUARTOS (1 SUÍTE) À VENDA NA SQN 104!,"APARTAMENTO VAZADO COM 3 QUARTOS (1 SUÍTE) À VENDA NA SQN 104!
 
 Observação: As fotos 1, 5, 15, 19 e 26 são sugestões de ... 09/12/24",Venda Apartamento 112 m²
-"SHIN QL 16, LAGO NORTE, BRASILIA",2890000,421,"421 m²
+"SHIN QL 16, LAGO NORTE, BRASILIA",2890000,421,"6.864,61","421 m²
 
 
 5 Quartos
@@ -714,12 +714,12 @@ Observação: As fotos 1, 5, 15, 19 e 26 são sugestões de ... 09/12/24",Venda 
 
 Bem-vindo à Casa Encanto, o refúgio perfeito para famílias que valorizam a infân... 09/12/24",Venda Casa 421 m²
 "SMAS Trecho 3 Lote 7
-                                    PARK SUL, BRASILIA",1071740,74,"74 a 127 m²
+                                    PARK SUL, BRASILIA",1071740,74,"14.482,97","74 a 127 m²
 
 3 quartos
 
 2 plantas",Ao sul da Asa Sul,Descrição não encontrada,Apartamento 74 a 127 m²
-"SQS 211, ASA SUL, BRASILIA",11000000,514,"514 m²
+"SQS 211, ASA SUL, BRASILIA",11000000,514,"21.400,78","514 m²
 
 
 4 Quartos
@@ -734,7 +734,7 @@ Eliane Amaral | Excellence
 Apartamento Luxuoso na SQS 211 - Brasília
 
 ... 09/12/24",Venda Apartamento 514 m²
-"SMDB Conjunto 12 B, LAGO SUL, BRASILIA",4480000,650,"650 m²
+"SMDB Conjunto 12 B, LAGO SUL, BRASILIA",4480000,650,"6.892,31","650 m²
 
 
 4 Quartos
@@ -747,7 +747,7 @@ Apartamento Luxuoso na SQS 211 - Brasília
 SMDB Conjunto 12B, Condomínio Quinta dos Dez - Lago Sul
 
 Descubra o con... 09/12/24",Venda Casa 650 m²
-"SHIS QI 23, LAGO SUL, BRASILIA",9200000,641,"641 m²
+"SHIS QI 23, LAGO SUL, BRASILIA",9200000,641,"14.352,57","641 m²
 
 
 4 Quartos
@@ -761,12 +761,12 @@ SHIS QI 23  Setor de Chácaras
 
 Localização privilegiada em meio à natur... 09/12/24",Venda Casa 641 m²
 "SQSW 500
-                                    SUDOESTE, BRASILIA",5295000,241,"241 m²
+                                    SUDOESTE, BRASILIA",5295000,241,"21.970,95","241 m²
 
 4 quartos
 
 1 planta",Exclusiva Unidade de Canto Vista Livre,Descrição não encontrada,Apartamento 241 m²
-"SHIS QI 7, LAGO SUL, BRASILIA",15000000,813,"813 m²
+"SHIS QI 7, LAGO SUL, BRASILIA",15000000,813,"18.450,18","813 m²
 
 
 4 Quartos
@@ -777,7 +777,7 @@ Localização privilegiada em meio à natur... 09/12/24",Venda Casa 641 m²
 
 3 Vagas","Residência moderna no Lago Sul: 4 suítes, elevador, piscina e acabamentos de alto padrão.","VILLA149199 - Última atualização: 08/12/24 23:30
 Uma abordagem de espaços vazados e poucas divisórias, esta casa oferece... 09/12/24",Venda Casa 813 m²
-"SGCV, PARK SUL, BRASILIA",1550000,95,"95 m²
+"SGCV, PARK SUL, BRASILIA",1550000,95,"16.315,79","95 m²
 
 
 3 Quartos
@@ -793,7 +793,7 @@ Uma abordagem de espaços vazados e poucas divisórias, esta casa oferece... 09/
 - Lavabo;
 - WC social;
 - Varand... 09/12/24",Venda Apartamento 95 m²
-"SQS 312, ASA SUL, BRASILIA",1985000,150,"150 m²
+"SQS 312, ASA SUL, BRASILIA",1985000,150,"13.233,33","150 m²
 
 
 3 Quartos
@@ -806,12 +806,12 @@ Uma abordagem de espaços vazados e poucas divisórias, esta casa oferece... 09/
 
 Descubra este excelente apartamento vazado com 150m² de área út... 09/12/24",Venda Apartamento 150 m²
 "SQNW 305 Bloco H
-                                    NOROESTE, BRASILIA",,110,"110 a 275 m²
+                                    NOROESTE, BRASILIA",,110,Preço ou área indisponível,"110 a 275 m²
 
 3 quartos
 
 5 plantas",A vida floresce no Noroeste.,Descrição não encontrada,Apartamento 110 a 275 m²
-"Condomínio Parque Jardim das Paineiras, JARDIM BOTANICO, BRASILIA",2290000,320,"320 m²
+"Condomínio Parque Jardim das Paineiras, JARDIM BOTANICO, BRASILIA",2290000,320,"7.156,25","320 m²
 
 
 4 Quartos
@@ -823,7 +823,7 @@ Descubra este excelente apartamento vazado com 150m² de área út... 09/12/24",
 4 Vagas",ACEITA FINANCIAMENTO,"Soma imóveis: Servir é o primeiro ato de amor.
 
 CASA DE 4 QUARTOS NO CONDOMÍNIO PARQUE E JARDIM DAS PAINEIRAS - JARDIM B... 09/12/24",Venda Casa 320 m²
-"Condomínio Resid Jardins do Lago Quadra 1, JARDIM BOTANICO, BRASILIA",5400000,530,"530 m²
+"Condomínio Resid Jardins do Lago Quadra 1, JARDIM BOTANICO, BRASILIA",5400000,530,"10.188,68","530 m²
 
 
 4 Quartos
@@ -837,7 +837,7 @@ CASA DE 4 QUARTOS NO CONDOMÍNIO PARQUE E JARDIM DAS PAINEIRAS - JARDIM B... 09/
 
 
 Imagine viver em uma residência ... 09/12/24",Venda Casa 530 m²
-"SMPW Quadra 9, PARK WAY, BRASILIA",2500000,1200,"1200 m²
+"SMPW Quadra 9, PARK WAY, BRASILIA",2500000,1200,"2.083,33","1200 m²
 
 
 11 Quartos
@@ -852,12 +852,12 @@ VÍDEO COM APRESENTAÇÃO COMPLETA!
 
 NÃO ACEITA FINANCIAMENTO BANCÁ... 09/12/24",Venda Casa Condominio 1200 m²
 "SQSW 500 Bloco Q
-                                    SUDOESTE, BRASILIA",,175,"175 m²
+                                    SUDOESTE, BRASILIA",,175,Preço ou área indisponível,"175 m²
 
 4 quartos
 
 1 planta",Preciosidade em cada detalhe,Descrição não encontrada,Apartamento 175 m²
-"SGCV, PARK SUL, BRASILIA",2100000,119,"119 m²
+"SGCV, PARK SUL, BRASILIA",2100000,119,"17.647,06","119 m²
 
 
 3 Quartos
@@ -869,7 +869,7 @@ NÃO ACEITA FINANCIAMENTO BANCÁ... 09/12/24",Venda Casa Condominio 1200 m²
 2 Vagas",Elegance Park Sul,"No Residencial Elegance – Park Sul, Apresentamos o: Apartamento Espaço Sublime, para Afagar Sua Alma
 
 Seu refúgio de exi... 09/12/24",Venda Apartamento 119 m²
-"SHIN QL 5, LAGO NORTE, BRASILIA",2850000,360,"360 m²
+"SHIN QL 5, LAGO NORTE, BRASILIA",2850000,360,"7.916,67","360 m²
 
 
 3 Quartos
@@ -880,7 +880,7 @@ Seu refúgio de exi... 09/12/24",Venda Apartamento 119 m²
 ** Energia fotovoltaica (solar)
 
 Ótima... 09/12/24",Venda Casa 360 m²
-"QC 2 Rua E, JARDINS MANGUEIRAL, BRASILIA",610000,68,"68 m²
+"QC 2 Rua E, JARDINS MANGUEIRAL, BRASILIA",610000,68,"8.970,59","68 m²
 
 
 3 Quartos
@@ -894,12 +894,12 @@ Seu refúgio de exi... 09/12/24",Venda Apartamento 119 m²
  CASA DE 3 QUARTOS NA QC 02 – JARDINS MANGUEIRAL
  ESPECIFICAÇÕES DA CASA... 09/12/24",Venda Casa Condominio 68 m²
 "SQNW 304 Bloco H
-                                    NOROESTE, BRASILIA",2682693,145,"145 a 291 m²
+                                    NOROESTE, BRASILIA",2682693,145,"18.501,33","145 a 291 m²
 
 3 a 4 quartos
 
 6 plantas",Encante-se com o seu cotidiano,Descrição não encontrada,Apartamento 145 a 291 m²
-"QC 3, JARDINS MANGUEIRAL, BRASILIA",380000,48,"48 m²
+"QC 3, JARDINS MANGUEIRAL, BRASILIA",380000,48,"7.916,67","48 m²
 
 
 2 Quartos
@@ -908,7 +908,7 @@ Seu refúgio de exi... 09/12/24",Venda Apartamento 119 m²
 1 Vaga","Lindo Apartamento com Fino Acabamento localizado no Jardins Mangueiral QC 03 por R$380.000,00.","Lindo Apartamento com Fino Acabamento localizado no Jardins Mangueiral QC 03 por R$380.000,00.
 
 Apartamento situado no 3... 09/12/24",Venda Apartamento 48 m²
-"SQSW 103, SUDOESTE, BRASILIA",2200000,159,"159 m²
+"SQSW 103, SUDOESTE, BRASILIA",2200000,159,"13.836,48","159 m²
 
 
 4 Quartos
@@ -920,7 +920,7 @@ Apartamento situado no 3... 09/12/24",Venda Apartamento 48 m²
 1 Vaga",", Marbella SQSW 103 - Apartamento 4 quartos (2 suítes, 1 quarto social e 1 quarto/varanda) + DCE e lavabo","SQSW 103 - Apartamento 4 quartos sendo 2 suítes, com 159,41m²...
 
 Desfrute de momentos inesquecíveis neste amplo apartam... 09/12/24",Venda Apartamento 159 m²
-"SHIN QI 11, LAGO NORTE, BRASILIA",2250000,411,"411 m²
+"SHIN QI 11, LAGO NORTE, BRASILIA",2250000,411,"5.474,45","411 m²
 
 
 4 Quartos
@@ -936,12 +936,12 @@ Preço promocional: 2.198.400,00
 
 Se você e... 09/12/24",Venda Casa 411 m²
 "SQNW 303
-                                    NOROESTE, BRASILIA",1760000,125,"125 a 199 m²
+                                    NOROESTE, BRASILIA",1760000,125,"14.080,00","125 a 199 m²
 
 3 quartos
 
 2 plantas",Vida longa a você e sua família,Descrição não encontrada,Apartamento 125 a 199 m²
-"SHIS QI 15, LAGO SUL, BRASILIA",8400000,770,"770 m²
+"SHIS QI 15, LAGO SUL, BRASILIA",8400000,770,"10.909,09","770 m²
 
 
 4 Quartos
@@ -956,7 +956,7 @@ SHIS QI 15  Lago Sul
 EXCLUSIVIDADE BORDALO PRIME
 
 Localizada em uma da... 09/12/24",Venda Casa 770 m²
-"QC 1, JARDINS MANGUEIRAL, BRASILIA",655000,68,"68 m²
+"QC 1, JARDINS MANGUEIRAL, BRASILIA",655000,68,"9.632,35","68 m²
 
 
 3 Quartos
@@ -968,7 +968,7 @@ Localizada em uma da... 09/12/24",Venda Casa 770 m²
 2 Vagas","Excelente Casa com Fino Acabamento no Jardins Mangueiral QC 01 por R$655.000,00.","Excelente Casa com Fino Acabamento no Jardins Mangueiral QC 01 por R$655.000,00.
 
 Sala para dois ambientes, com teto em ... 09/12/24",Venda Casa 68 m²
-"QC 11 Rua E, JARDINS MANGUEIRAL, BRASILIA",320000,50,"50 m²
+"QC 11 Rua E, JARDINS MANGUEIRAL, BRASILIA",320000,50,"6.400,00","50 m²
 
 
 2 Quartos
@@ -979,12 +979,12 @@ ESPECIFICAÇÕES DO APARTAMENTO:
  - 2º andar;
  - Projeto de ilumina... 09/12/24",Venda Apartamento 50 m²
 "SQNW 306 Bloco A
-                                    NOROESTE, BRASILIA",,166,"166 m²
+                                    NOROESTE, BRASILIA",,166,Preço ou área indisponível,"166 m²
 
 4 quartos
 
 1 planta",O horizonte é o seu mais novo privilégio,Descrição não encontrada,Apartamento 166 m²
-"SGCV Lote 27, PARK SUL, BRASILIA",1295000,76,"76 m²
+"SGCV Lote 27, PARK SUL, BRASILIA",1295000,76,"17.039,47","76 m²
 
 
 2 Quartos
@@ -996,7 +996,7 @@ ESPECIFICAÇÕES DO APARTAMENTO:
 1 Vaga","Prime Residence, Apartamento  com  2 suítes, lavabo e vista livre à venda, Park Suk.","Prime Residence, Park Sul/DF
 
 O Prime Residence, localizado na Super Quadra Park Sul, oferece um apartamento sofisticado... 09/12/24",Venda Apartamento 76 m²
-"SQNW 306 Bloco F, NOROESTE, BRASILIA",2100000,128,"128 m²
+"SQNW 306 Bloco F, NOROESTE, BRASILIA",2100000,128,"16.406,25","128 m²
 
 
 3 Quartos
@@ -1009,7 +1009,7 @@ O Prime Residence, localizado na Super Quadra Park Sul, oferece um apartamento s
 Apartamento com 128m2, 3 suítes e 3 vagas de garagem.
 
 Apartamento  localizado na SQNW 306, r... 09/12/24",Venda Apartamento 128 m²
-"CCSW 4, SUDOESTE, BRASILIA",2780000,194,"194 m²
+"CCSW 4, SUDOESTE, BRASILIA",2780000,194,"14.329,90","194 m²
 
 
 2 Quartos
@@ -1022,12 +1022,12 @@ Apartamento  localizado na SQNW 306, r... 09/12/24",Venda Apartamento 128 m²
 
 A SAMPAIO NEG... 09/12/24",Venda Apartamento 194 m²
 "CRNW 503 Bloco A Lote 1
-                                    NOROESTE, BRASILIA",689266,48,"48 a 132 m²
+                                    NOROESTE, BRASILIA",689266,48,"14.359,71","48 a 132 m²
 
 0 a 1 quartos
 
 4 plantas",,Descrição não encontrada,Apartamento 48 a 132 m²
-"SHCGN 713, ASA NORTE, BRASILIA",1050000,91,"91 m²
+"SHCGN 713, ASA NORTE, BRASILIA",1050000,91,"11.538,46","91 m²
 
 
 3 Quartos
@@ -1036,7 +1036,7 @@ A SAMPAIO NEG... 09/12/24",Venda Apartamento 194 m²
 1 Suíte","APARTAMENTO VAZADO E REFORMADO NA SHCGN 713 - ELEGÂNCIA, CONFORTO E VISTA LIVRE","Apartamento Vazado e Reformado na SHCGN 713 - Elegância, Conforto e Vista Livre!
 
 Imóvel para quem valoriza sofisticação... 09/12/24",Venda Apartamento 91 m²
-"SQNW 110, NOROESTE, BRASILIA",4700000,378,"378 m²
+"SQNW 110, NOROESTE, BRASILIA",4700000,378,"12.433,86","378 m²
 
 
 4 Quartos
@@ -1046,7 +1046,7 @@ Imóvel para quem valoriza sofisticação... 09/12/24",Venda Apartamento 91 m²
 
 
 4 Vagas",LINDA COBERTURA COM INCRÍVEIS 378M E 4 SUÍTES!,"Tudo o que você mais valoriza numa super-cobertura no Noroeste: ampla, reformadíssima, lazer perfeito, duplo-nascente (l... 09/12/24",Venda Apartamento 378 m²
-"SHIS QI 7, LAGO SUL, BRASILIA",15000000,813,"813 m²
+"SHIS QI 7, LAGO SUL, BRASILIA",15000000,813,"18.450,18","813 m²
 
 
 4 Quartos
@@ -1061,12 +1061,12 @@ Eliane Amaral | Excellence
 
 Casa com 4 Suítes à Venda na SHIS Qi 07, L... 09/12/24",Venda Casa 813 m²
 "SQNW 306 Bloco C
-                                    NOROESTE, BRASILIA",3055000,220,"220 a 220 m²
+                                    NOROESTE, BRASILIA",3055000,220,"13.886,36","220 a 220 m²
 
 3 quartos
 
 2 plantas",URBAN 306,Descrição não encontrada,Apartamento 220 a 220 m²
-"Condomínio Ecológico Parque do Mirante, JARDIM BOTANICO, BRASILIA",1780000,290,"290 m²
+"Condomínio Ecológico Parque do Mirante, JARDIM BOTANICO, BRASILIA",1780000,290,"6.137,93","290 m²
 
 
 3 Quartos
@@ -1076,7 +1076,7 @@ Casa com 4 Suítes à Venda na SHIS Qi 07, L... 09/12/24",Venda Casa 813 m²
 
 
 4 Vagas",,"Condomínio Ecológico Parque do Mirante, ótima casa com cerca de 290 m2, edificada em lote de 600 m2, com 3 quartos, 2 su... 09/12/24",Venda Casa Condominio 290 m²
-"SMPW Quadra 3, PARK WAY, BRASILIA",3300000,515,"515 m²
+"SMPW Quadra 3, PARK WAY, BRASILIA",3300000,515,"6.407,77","515 m²
 
 
 3 Quartos
@@ -1089,7 +1089,7 @@ Casa com 4 Suítes à Venda na SHIS Qi 07, L... 09/12/24",Venda Casa 813 m²
 EXCLUSIVIDADE DE VENDAS E NEGOCIAÇÃO SEGURA.
 
 Em busca de um verdadeiro refúgio ... 09/12/24",Venda Casa 515 m²
-"Condomínio Residencial Santa Mônica, JARDIM BOTANICO, BRASILIA",1890000,400,"400 m²
+"Condomínio Residencial Santa Mônica, JARDIM BOTANICO, BRASILIA",1890000,400,"4.725,00","400 m²
 
 
 4 Quartos
@@ -1105,12 +1105,12 @@ ATENÇÃO PARA BÔNUS OFERECIDO:
 
 R$ 40.000,00 de b... 09/12/24",Venda Casa Condominio 400 m²
 "SQNW 102 Bloco F
-                                    NOROESTE, BRASILIA",,127,"127 m²
+                                    NOROESTE, BRASILIA",,127,Preço ou área indisponível,"127 m²
 
 3 quartos
 
 1 planta",Viva o Extraordinário,Descrição não encontrada,Apartamento 127 m²
-"SQN 114 Bloco A, ASA NORTE, BRASILIA",1950000,171,"171 m²
+"SQN 114 Bloco A, ASA NORTE, BRASILIA",1950000,171,"11.403,51","171 m²
 
 
 3 Quartos
@@ -1124,7 +1124,7 @@ R$ 40.000,00 de b... 09/12/24",Venda Casa Condominio 400 m²
 EXCLUSIVIDADE!
 
 Um belo apartamento! Aquela planta bem dividida, que tem ambientes amplos... 09/12/24",Venda Apartamento 171 m²
-"Condomínio Morada de Deus, JARDIM BOTANICO, BRASILIA",1650000,380,"380 m²
+"Condomínio Morada de Deus, JARDIM BOTANICO, BRASILIA",1650000,380,"4.342,11","380 m²
 
 
 3 Quartos
@@ -1135,7 +1135,7 @@ Um belo apartamento! Aquela planta bem dividida, que tem ambientes amplos... 09/
 
 2 Vagas",Residencial Quatro Estações Oportunidade Imperdível - Lote + Casa - Proj Arrojado - Financiados,"Lote com Casa pronta - Projeto no Condomínio 4 Estações - VEJA O VIDEO DO PROJETO
 Por gentileza, leia o anúncio pois ele... 09/12/24",Venda Casa Condominio 380 m²
-"SHIN QL 12, LAGO NORTE, BRASILIA",11000000,1875,"1875 m²
+"SHIN QL 12, LAGO NORTE, BRASILIA",11000000,1875,"5.866,67","1875 m²
 
 
 4 Quartos
@@ -1146,12 +1146,12 @@ Por gentileza, leia o anúncio pois ele... 09/12/24",Venda Casa Condominio 380 m
 
 4 Vagas","SHIN QL 12 | Ponta de Picolé: 4 Quartos, 4 Suítes, 3 Salas, 4 Vagas, Linda Vista 880m².","Imagine acordar todos os dias em um verdadeiro paraíso particular, onde o luxo e a tranquilidade se unem em uma das loca... 09/12/24",Venda Casa 1875 m²
 "SQNW 106 Bloco C
-                                    NOROESTE, BRASILIA",3102975,200,"200 a 430 m²
+                                    NOROESTE, BRASILIA",3102975,200,"15.514,88","200 a 430 m²
 
 4 quartos
 
 2 plantas",O melhor 4 suítes c/ 4 vagas do Noroeste,Descrição não encontrada,Apartamento 200 a 430 m²
-"Condomínio Prive I Quadra 1, LAGO NORTE, BRASILIA",3190000,500,"500 m²
+"Condomínio Prive I Quadra 1, LAGO NORTE, BRASILIA",3190000,500,"6.380,00","500 m²
 
 
 4 Quartos
@@ -1164,7 +1164,7 @@ Por gentileza, leia o anúncio pois ele... 09/12/24",Venda Casa Condominio 380 m
 CONDOMÍNIO PRIVE LAGO NORTE  
 PROJETO: ARAVENA ARQUITETURA & URBANISMO  
 EXCLUSIVIDADE DE VENDA: ... 09/12/24",Venda Casa Condominio 500 m²
-"Condomínio Residencial Santa Mônica, JARDIM BOTANICO, BRASILIA",2850000,750,"750 m²
+"Condomínio Residencial Santa Mônica, JARDIM BOTANICO, BRASILIA",2850000,750,"3.800,00","750 m²
 
 
 6 Quartos
@@ -1174,7 +1174,7 @@ EXCLUSIVIDADE DE VENDA: ... 09/12/24",Venda Casa Condominio 500 m²
 
 
 5 Vagas",Casa escriturada e registrada - Aceita financiamento,"Daniel Ferreira apresenta: A ""Casa Acqua"" Uma verdadeira obra-prima arquitetônica que alia luxo e tecnologia a um profun... 09/12/24",Venda Casa Condominio 750 m²
-"SMDB Conjunto 13, LAGO SUL, BRASILIA",7000000,435,"435 m²
+"SMDB Conjunto 13, LAGO SUL, BRASILIA",7000000,435,"16.091,95","435 m²
 
 
 4 Quartos
@@ -1188,12 +1188,12 @@ SMDB Conjunto 13 - Lago Sul
 
 BORDALO PRIME VENDE casa térrea de alto pa... 09/12/24",Venda Casa 435 m²
 "SQN 113
-                                    ASA NORTE, BRASILIA",2697743,167,"167 a 335 m²
+                                    ASA NORTE, BRASILIA",2697743,167,"16.154,15","167 a 335 m²
 
 4 quartos
 
 2 plantas",,Descrição não encontrada,Apartamento 167 a 335 m²
-"Condomínio Estancia Jardim Botânico, JARDIM BOTANICO, BRASILIA",1300000,245,"245 m²
+"Condomínio Estancia Jardim Botânico, JARDIM BOTANICO, BRASILIA",1300000,245,"5.306,12","245 m²
 
 
 4 Quartos
@@ -1206,7 +1206,7 @@ BORDALO PRIME VENDE casa térrea de alto pa... 09/12/24",Venda Casa 435 m²
 
  CASA DE 4 QUARTOS NO CONDOMÍNIO ESTÂNCIA JARDIM BOTÂNICO
  ESPECIFICAÇÕES... 09/12/24",Venda Casa 245 m²
-"SQNW 311, NOROESTE, BRASILIA",1670000,114,"114 m²
+"SQNW 311, NOROESTE, BRASILIA",1670000,114,"14.649,12","114 m²
 
 
 3 Quartos
@@ -1216,7 +1216,7 @@ BORDALO PRIME VENDE casa térrea de alto pa... 09/12/24",Venda Casa 435 m²
 
 
 2 Vagas","Apartamento de 3 Quartos, sqnw 311, com e Lazer Completo em Localização Privilegiada.","Descubra o conforto e a elegância neste imóvel perfeitamente localizado, entre os parques Bouler Max e Água Mineral, ofe... 09/12/24",Venda Apartamento 114 m²
-"Condomínio Resid Maxximo Garden, JARDIM BOTANICO, BRASILIA",2080000,400,"400 m²
+"Condomínio Resid Maxximo Garden, JARDIM BOTANICO, BRASILIA",2080000,400,"5.200,00","400 m²
 
 
 4 Quartos

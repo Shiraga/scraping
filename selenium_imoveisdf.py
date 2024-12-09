@@ -90,10 +90,21 @@ while pagina <= 3:
         area_numerica = re.search(r"(\d[\d\.\,]*)", area_text)
         area_text = area_numerica.group(1).replace(".", "").replace(",", ".") if area_numerica else ""
 
+        # Calcular o preço por metro quadrado
+        if preco_text and area_text:  # Verifica se ambos os campos têm valores
+            try:
+                preco_m2 = float(preco_text) / float(area_text)
+                preco_m2_formatado = f"{preco_m2:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")  # Formata o número
+            except ValueError:
+                preco_m2_formatado = "Erro no cálculo"
+        else:
+            preco_m2_formatado = "Preço ou área indisponível"
+
         dados_imoveis.append({
             "Título": titulo_text,
             "Preço": preco_text,
             "Área": area_text,
+            "Preço por m²": preco_m2_formatado,
             "Detalhes": details_text,
             "Descrição 1": desc1_text,
             "Descrição 2": desc2_text,
@@ -114,7 +125,7 @@ print(f"Total de imóveis coletados: {len(dados_imoveis)}")
 
 arquivo_csv = "imoveis_dados.csv"
 with open(arquivo_csv, "w", newline="", encoding="utf-8") as file:
-    writer = csv.DictWriter(file, fieldnames=["Título", "Preço", "Área", "Detalhes", "Descrição 1", "Descrição 2", "Descrição 3"])
+    writer = csv.DictWriter(file, fieldnames=["Título", "Preço", "Área", "Preço por m²", "Detalhes", "Descrição 1", "Descrição 2", "Descrição 3"])
     writer.writeheader()  # Escreve o cabeçalho
     writer.writerows(dados_imoveis)  # Escreve os dados
 

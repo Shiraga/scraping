@@ -1,5 +1,6 @@
 # Data Scraping
-Scraping basico em site de imoveis do DF
+Simple data scraping on brazilian real state site. Real State Brasília - DF website.
+URL: https://www.dfimoveis.com.br/venda/df/brasilia/imoveis
 
 ## Requirements
 ```

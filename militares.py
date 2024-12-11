@@ -6,7 +6,7 @@ from PIL import Image
 import pytesseract
 
 # Configurar o caminho do executável do Tesseract (ajuste conforme necessário)
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\mathe\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
 
 # Carregar variáveis de ambiente do arquivo .env
 load_dotenv()
@@ -14,7 +14,7 @@ load_dotenv()
 # Obter as variáveis do ambiente
 INITIAL_URL = os.getenv('INITIAL_URL')
 CPF = os.getenv('CPF')
-PASSWORD = os.getenv('PASSWORD')
+SENHA = os.getenv('SENHA')
 
 async def solve_captcha(page, captcha_selector):
     # Captura a imagem do CAPTCHA
@@ -23,7 +23,7 @@ async def solve_captcha(page, captcha_selector):
 
     # Usar o Tesseract OCR para extrair o texto
     captcha_image = Image.open(captcha_image_path)
-    captcha_text = pytesseract.image_to_string(captcha_image, config="--psm 6")
+    captcha_text = pytesseract.image_to_string(captcha_image, config="--psm 8")
 
     # Exibir o texto extraído
     print(f"CAPTCHA Resolvido: {captcha_text}")
@@ -40,13 +40,16 @@ async def main():
 
         # Preencher CPF e senha
         await page.fill("input[name='cpf']", CPF)
-        await page.fill("input[name='password']", PASSWORD)
+        await page.fill("input[name='senha']", SENHA)
+
+        # Esperar até 15 segundos para o CAPTCHA ser carregado
+        await page.wait_for_selector('img[src^="/captcha/"]', timeout=15000)
 
         # Resolver o CAPTCHA
-        captcha_text = await solve_captcha(page, "#captcha-image-selector")
+        captcha_text = await solve_captcha(page, 'img[src^="/captcha/"]')
 
         # Inserir o texto do CAPTCHA no campo correspondente
-        await page.fill("input[name='captcha']", captcha_text)
+        await page.fill("input[name='captcha[input]']", captcha_text)
 
         # Clicar no botão de login
         #await page.click("button[type='submit']")

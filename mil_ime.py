@@ -15,30 +15,43 @@ REDIRECT_URL = os.getenv('REDIRECT_URL')
 CURSO_DESEJADO = os.getenv('CURSO_DESEJADO')
 
 async def selecionar_opcao(page, seletor, valor):
-    await page.select_option(seletor, valor)
-    print(f"Selecionada a opção {valor} para o seletor {seletor}")
+    try:
+        await page.select_option(seletor, valor)
+        print(f"Selecionada a opção {valor} para o seletor {seletor}")
+    except Exception as e:
+        print(f"Erro ao selecionar opção: {e}")
 
 async def mudar_paginacao(page, tabela_nome):
-    dropdown_selector = f"select[name='{tabela_nome}_length']"
-    await page.select_option(dropdown_selector, "100")
-    print(f"Alterada a paginação para 100 resultados em {tabela_nome}")
+    try:
+        dropdown_selector = f"select[name='{tabela_nome}_length']"
+        await page.select_option(dropdown_selector, "100")
+        print(f"Alterada a paginação para 100 resultados em {tabela_nome}")
+    except Exception as e:
+        print(f"Erro ao alterar paginação: {e}")
 
 async def extrair_dados(page, tabela_id, situacao):
-    rows = await page.query_selector_all(f"#{tabela_id} tbody tr")
-    dados = []
-    for row in rows:
-        cols = await row.query_selector_all("td")
-        col_values = [await col.inner_text() for col in cols]
-        col_values.append(situacao)  # Adiciona a coluna 'Situação'
-        dados.append(col_values)
-    return dados
+    try:
+        rows = await page.query_selector_all(f"#{tabela_id} tbody tr")
+        dados = []
+        for row in rows:
+            cols = await row.query_selector_all("td")
+            col_values = [await col.inner_text() for col in cols]
+            col_values.append(situacao)
+            dados.append(col_values)
+        return dados
+    except Exception as e:
+        print(f"Erro ao extrair dados da tabela {tabela_id}: {e}")
+        return []
 
 async def obter_anos_disponiveis(page):
-    # Obter todos os valores disponíveis no dropdown do seletor de ano
-    options = await page.query_selector_all("#ano option")
-    anos = [await option.get_attribute("value") for option in options if await option.get_attribute("value")]
-    print(f"Anos disponíveis: {anos}")
-    return anos
+    try:
+        options = await page.query_selector_all("#ano option")
+        anos = [await option.get_attribute("value") for option in options if await option.get_attribute("value")]
+        print(f"Anos disponíveis: {anos}")
+        return anos
+    except Exception as e:
+        print(f"Erro ao obter anos disponíveis: {e}")
+        return []
 
 async def main():
     async with async_playwright() as playwright:
@@ -70,47 +83,69 @@ async def main():
 
         # DataFrame para consolidar os dados
         all_data = []
+        falhas_consecutivas = 0
 
         for ano in anos_disponiveis:
-            if ano == "2024":
+            #if ano == "2024" or int(ano) < 1990:
+            if ano == "2024" or int(ano) < 2010:
                 print(f"Pulando o ano: {ano}")
                 continue
-            
+
             print(f"Iniciando extração para o ano: {ano}")
 
-            # Passo 1: Selecionar o ano
-            await selecionar_opcao(page, "#ano", ano)
+            try:
+                # Passo 1: Selecionar o ano
+                await selecionar_opcao(page, "#ano", ano)
 
-            # Passo 2: Selecionar o curso
-            await selecionar_opcao(page, "#curso", CURSO_DESEJADO)
+                # Passo 2: Selecionar o curso
+                await selecionar_opcao(page, "#curso", CURSO_DESEJADO)
 
-            # Passo 3: Clicar no botão de procurar
-            await page.click("input[type='submit']")
-            await page.wait_for_selector("#listTable", timeout=15000)
+                # Passo 3: Clicar no botão de procurar
+                await page.click("input[type='submit']")
+                await page.wait_for_selector("#listTable", timeout=15000)
 
-            # Passo 4: Alterar paginação para 100 resultados na tabela 'Ativa'
-            await mudar_paginacao(page, "listTable")
+                # Passo 4: Alterar paginação para 100 resultados na tabela 'Ativa'
+                await mudar_paginacao(page, "listTable")
 
-            # Passo 5: Alterar paginação para 100 resultados na tabela 'Excluídos'
-            await mudar_paginacao(page, "listTable3")
+                # Passo 5: Alterar paginação para 100 resultados na tabela 'Excluídos'
+                await mudar_paginacao(page, "listTable3")
 
-            # Passo 6: Extrair dados das tabelas
-            dados_ativa = await extrair_dados(page, "listTable", "Ativa")
-            dados_excluidos = await extrair_dados(page, "listTable3", "Excluído")
+                # Passo 6: Extrair dados das tabelas
+                dados_ativa = await extrair_dados(page, "listTable", "Ativa")
+                dados_excluidos = await extrair_dados(page, "listTable3", "Excluído")
 
-            # Adicionar uma coluna com o ano
-            for linha in dados_ativa:
-                linha.append(ano)
-            for linha in dados_excluidos:
-                linha.append(ano)
+                # Adicionar uma coluna com o ano
+                for linha in dados_ativa:
+                    linha.append(ano)
+                for linha in dados_excluidos:
+                    linha.append(ano)
 
-            # Consolidar os dados
-            all_data.extend(dados_ativa)
-            all_data.extend(dados_excluidos)
+                # Consolidar os dados
+                all_data.extend(dados_ativa)
+                all_data.extend(dados_excluidos)
+
+                falhas_consecutivas = 0  # Resetar contador de falhas em caso de sucesso
+
+            except Exception as e:
+                print(f"Erro ao processar o ano {ano}: {e}")
+                falhas_consecutivas += 1
+
+                if falhas_consecutivas > 3:
+                    print("Falhas consecutivas excederam o limite. Interrompendo o código.")
+                    break
 
         # Estrutura final do DataFrame
         colunas = ["Posto/Graduação", "Nome", "OM/E-mail/Data/Motivo", "Situação", "Ano"]
-        df_final = pd.DataFrame(all_data, columns=colunas)
+
+        # Validar o número de colunas antes de criar o DataFrame
+        max_colunas = max(len(linha) for linha in all_data) if all_data else len(colunas)
+
+        # Ajustar o cabeçalho dinamicamente se necessário
+        if max_colunas > len(colunas):
+            colunas.extend([f"Extra_{i}" for i in range(len(colunas), max_colunas)])
+
+        # Criar DataFrame com o cabeçalho ajustado
+        df_final = pd.DataFrame(all_data, columns=colunas[:max_colunas])
 
         # Salvar em um arquivo Excel
         df_final.to_excel("dados_militares_todos_anos.xlsx", index=False)

@@ -87,7 +87,7 @@ async def main():
 
         for ano in anos_disponiveis:
             #if ano == "2024" or int(ano) < 1990:
-            if ano == "2024" or int(ano) < 2010:
+            if ano == "2024" or int(ano) < 2022:
                 print(f"Pulando o ano: {ano}")
                 continue
 
@@ -134,21 +134,13 @@ async def main():
                     print("Falhas consecutivas excederam o limite. Interrompendo o código.")
                     break
 
-        # Estrutura final do DataFrame
-        colunas = ["Posto/Graduação", "Nome", "OM/E-mail/Data/Motivo", "Situação", "Ano"]
+        colunas = ["Posto/Graduação", "Nome", "OM/Data", "Email/Motivo", "Situação", "Ano"]
+        df = pd.DataFrame(all_data, columns=colunas)
 
-        # Validar o número de colunas antes de criar o DataFrame
-        max_colunas = max(len(linha) for linha in all_data) if all_data else len(colunas)
+        #print(df.sample(n=5))
 
-        # Ajustar o cabeçalho dinamicamente se necessário
-        if max_colunas > len(colunas):
-            colunas.extend([f"Extra_{i}" for i in range(len(colunas), max_colunas)])
-
-        # Criar DataFrame com o cabeçalho ajustado
-        df_final = pd.DataFrame(all_data, columns=colunas[:max_colunas])
-
-        # Salvar em um arquivo Excel
-        df_final.to_excel("dados_militares_todos_anos.xlsx", index=False)
+        # Salvar o DataFrame final em um arquivo Excel
+        df.to_excel("dados_militares_todos_anos.xlsx", index=False)
         print("Dados salvos em 'dados_militares_todos_anos.xlsx'.")
 
         # Fechar o navegador

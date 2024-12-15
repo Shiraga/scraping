@@ -139,6 +139,16 @@ async def main():
 
         #print(df.sample(n=5))
 
+        # Dividir a coluna "OM/Data" em "OM" e "Data" com base na Situação
+        df["OM"] = df.apply(lambda row: row["OM/Data"] if row["Situação"] == "Ativa" else "", axis=1)
+        df["Data"] = df.apply(lambda row: row["OM/Data"] if row["Situação"] == "Excluído" else "", axis=1)
+        df.drop(columns=["OM/Data"], inplace=True)
+
+        # Dividir a coluna "Email/Motivo" em "Email" e "Motivo" com base na Situação
+        df["Email"] = df.apply(lambda row: row["Email/Motivo"] if row["Situação"] == "Ativa" else "", axis=1)
+        df["Motivo"] = df.apply(lambda row: row["Email/Motivo"] if row["Situação"] == "Excluído" else "", axis=1)
+        df.drop(columns=["Email/Motivo"], inplace=True)
+
         # Salvar o DataFrame final em um arquivo Excel
         df.to_excel("dados_militares_todos_anos.xlsx", index=False)
         print("Dados salvos em 'dados_militares_todos_anos.xlsx'.")
